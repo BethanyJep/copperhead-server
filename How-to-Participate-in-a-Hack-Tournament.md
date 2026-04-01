@@ -24,6 +24,8 @@ Fork the [copperhead-bot](https://github.com/revodavid/copperhead-bot) repositor
 
  * To launch a GitHub repository in CodeSpaces, click the green **Code** button, then click the **Codespaces** tab and click "Create CodeSpace on main".
 
+> You can use VSCODE or any other IDE. however you will need to install all the requirements locally using `pip install -r requirements.txt`
+
 ## Step 2: Build your bot
 
 Use the file `mybot.py` in the copperhead-bot repository as a starting point for your bot. You can change the file name if you want, but definitely change the bot name in the code to match your team name, so the Host can recognize your bot during the tournament.
@@ -51,11 +53,9 @@ Before you unleash your bot on the tournament server, you can test it on your ow
 
 1. Visit the [copperhead-server](https://github.com/revodavid/copperhead-server) repository and launch it in GitHub Codespaces. This will give you a personal game server to test your bot against during development.
 
-2. Replace the `server-settings.json` file in your fork with the one provided by the Host. This ensures your bot is tuned to the correct game rules (grid size, speed, fruit types, etc.).
-
 > **TIP:** You can restart your server at any time by modifying and saving the `server-settings.json` file. For testing, consider setting the `arenas` parameter to 1 for a single-round tournament.
 
-3. Launch the CopperHead client on your team server using the "Play Now" link shown in Codespaces.
+2. Launch the CopperHead client on your team server using the "Play Now" link shown in Codespaces.
 
 ## Step 4: Test your bot
 
@@ -85,6 +85,7 @@ When the Host announces the hacking period is over, it's time for the knockout t
     ```bash
     python hackbot.py --name "TeamName Bot" --server wss://copperhead-server.gentlegrass-397f2d01.westus2.azurecontainerapps.io/ws/
     ```
+    > replace **"hackbot.py"** with your python file name and **"TeamName Bot"** with your bot name
 
 2. Once all teams have joined, the tournament begins automatically. Watch the action on the big screen as bots battle in knockout rounds!
 
