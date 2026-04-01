@@ -9,7 +9,7 @@ Your host will provide you with a link to access the CopperHead client web app t
 - A name for your team.
 - A laptop with a web browser and internet access. (Any laptop will do.)
 - A [GitHub](https://github.com) account (a free account includes access to GitHub Copilot and Codespaces, and will suffice).
-- The tournament **server URL**. This will be our URL today: wss://copperhead-server.gentlegrass-397f2d01.westus2.azurecontainerapps.io/ws/
+- The tournament **server URL**. This will be our URL today: **`wss://copperhead-server.gentlegrass-397f2d01.westus2.azurecontainerapps.io/ws/`**
 - The server settings file **`server-settings.json`**. You can download this file from the CopperHead client.
 
 ### Don't want to code?
