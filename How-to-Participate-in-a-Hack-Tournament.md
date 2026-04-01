@@ -83,7 +83,7 @@ When the Host announces the hacking period is over, it's time for the knockout t
 
 1. Connect your bot to the Host's public tournament server:
     ```bash
-    python hackbot.py --name "TeamName Bot" --server wss://host-codespaces-url.app.github.dev/ws/
+    python hackbot.py --name "TeamName Bot" --server wss://copperhead-server.gentlegrass-397f2d01.westus2.azurecontainerapps.io/ws/
     ```
 
 2. Once all teams have joined, the tournament begins automatically. Watch the action on the big screen as bots battle in knockout rounds!
